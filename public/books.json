@@ -1,0 +1,155 @@
+[
+  {
+    "id": 0,
+    "title": "Происхождение",
+    "author": "Дэн Браун",
+    "image": "https://i1.rozetka.ua/goods/14270560/fors_9789669930132_images_14270560455.jpg",
+    "price": 710,
+    "rating": 3
+  },
+  {
+    "id": 1,
+    "title": "1984",
+    "author": "Джордж Оруэлл",
+    "image": "https://i1.rozetka.ua/goods/8906710/book_chef_9786177559268_images_8906710125.jpg",
+    "price": 415,
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "title": "Девушка в тумане",
+    "author": "Донато Карризи",
+    "image": "https://i1.rozetka.ua/goods/10826414/71458006_images_10826414619.jpg",
+    "price": 464,
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "title": "Империя должна умереть",
+    "author": "Михаил Зыгарь",
+    "image": "https://i2.rozetka.ua/goods/12412095/fors_9786177561964_images_12412095998.jpg",
+    "price": 741,
+    "rating": 3
+  },
+  {
+    "id": 4,
+    "title": "Земное притяжение",
+    "author": "Татьяна Устинова",
+    "image": "https://i2.rozetka.ua/goods/8906712/book_chef_9786177347971_images_8906712309.jpg",
+    "price": 317,
+    "rating": 1
+  },
+  {
+    "id": 5,
+    "title": "Зулейха открывает глаза",
+    "author": "Гузель Яхина",
+    "image": "https://i1.rozetka.ua/goods/11294607/nash_format_9786177279357_images_11294607768.jpg",
+    "price": 254,
+    "rating": 0
+  },
+  {
+    "id": 6,
+    "title": "Очаровательный кишечник. Как самый могущественный орган управляет нами",
+    "author": "Джулия Эндерс",
+    "image": "https://i2.rozetka.ua/goods/13516173/113351030_images_13516173650.jpg",
+    "price": 573,
+    "rating": 4
+  },
+  {
+    "id": 7,
+
+    "title": "iPhuck 10",
+    "author": "Виктор Пелевин",
+    "image": "https://i2.rozetka.ua/goods/1847983/a_ba_ba_ga_la_ma_ga_9786175850350_images_1847983238.jpg",
+    "price": 246,
+    "rating": 0
+  },
+  {
+    "id": 8,
+    "title": "7 навыков высокоэффективных людей: Мощные...",
+    "author": "Стивен Кови",
+    "image": "https://i2.rozetka.ua/goods/13511401/113340380_images_13511401808.jpg",
+    "price": 347,
+    "rating": 5
+  },
+  {
+    "id": 9,
+    "title": "Девушка во льду",
+    "author": "Роберт Брындза",
+    "image": "https://i1.rozetka.ua/goods/14863513/139885594_images_14863513226.jpg",
+    "price": 882,
+    "rating": 2
+  },
+  {
+    "id": 10,
+    "title": "Магия утра. Как первый час дня определяет ваш успех",
+    "author": "Хэл Элрод",
+    "image": "https://i2.rozetka.ua/goods/8914436/book_chef_9786177559480_images_8914436837.jpg",
+    "price": 829,
+    "rating": 1
+  },
+  {
+    "id": 11,
+    "title": "Азиатская европеизация. История Российского государства. Царь Петр...",
+    "author": "Борис Акунин",
+    "image": "https://i2.rozetka.ua/goods/2140869/azbuka_9785389127401_images_2140869557.jpg",
+    "price": 389,
+    "rating": 2
+  },
+  {
+    "id": 12,
+    "title": "Ведьмак (сборник)",
+    "author": "Анджей Сапковский",
+    "image": "https://i2.rozetka.ua/goods/8935605/folio_9789660369245_images_8935605957.jpg",
+    "price": 424,
+    "rating": 3
+  },
+  {
+    "id": 13,
+    "title": "Атлант расправил плечи",
+    "author": "Айн Рэнд",
+    "image": "https://i2.rozetka.ua/goods/12100118/59445634_images_12100118556.jpg",
+    "price": 157,
+    "rating": 2
+  },
+  {
+    "id": 14,
+    "title": "Цена вопроса. Том 1",
+    "author": "Александра Маринина",
+    "image": "https://i1.rozetka.ua/goods/11294607/nash_format_9786177279357_images_11294607768.jpg",
+    "price": 664,
+    "rating": 0
+  },
+  {
+    "id": 15,
+    "title": "Исчезнувшая",
+    "author": "Гиллиан Флинн",
+    "image": "https://i2.rozetka.ua/goods/13511401/113340380_images_13511401808.jpg",
+    "price": 476,
+    "rating": 4
+  },
+  {
+    "id": 17,
+    "title": "Метро 2035",
+    "author": "Дмитрий Глуховский",
+    "image": "https://i2.rozetka.ua/goods/12724950/snowdrop_9789669779328_images_12724950424.jpg",
+    "price": 837,
+    "rating": 4
+  },
+  {
+    "id": 18,
+    "title": "Снеговик",
+    "author": "Ю Несбё",
+    "image": "https://i2.rozetka.ua/goods/14739317/ridna_mova_9789669170934_images_14739317519.png",
+    "price": 796,
+    "rating": 5
+  },
+  {
+    "id": 19,
+    "title": "Как тренировать память. Не думайте о памяти – лучше используйте ее на все сто!",
+    "author": "Джонатан Хэнкок",
+    "image": "https://i1.rozetka.ua/goods/12100129/54829050_images_12100129956.jpg",
+    "price": 399,
+    "rating": 5
+  }
+]

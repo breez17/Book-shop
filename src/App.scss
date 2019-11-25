@@ -1,0 +1,20 @@
+
+.ui.menu:first-child {
+  margin-top: 20px;
+}
+
+.ui.four.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.ui.card {
+  margin-top: 20px !important;
+}
+
+.ui.vertical.menu {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
