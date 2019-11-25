@@ -1,58 +1,53 @@
-import React, { Component } from 'react';
-import { Input, Label, Menu } from 'semantic-ui-react'
-import ProTypes from 'prop-types'
+import React, {Component} from 'react';
+import {Input, Label, Menu} from 'semantic-ui-react'
 
-export default class MenuExampleVertical extends Component {
-    state = { activeItem: 'all' };
+const Sort = props => {
+    const {setSort, sortBy} = props;
 
-    handleItemClick = (e, { name }) => this.setState({ activeItem: name });
 
-    render() {
-        const { activeItem } = this.state;
-        console.log(this.state);
-        return (
-            <Menu vertical>
-                <Menu.Item
-                    name='all'
-                    active={activeItem === 'all'}
-                    onClick={this.handleItemClick}
-                >
-                    Все
-                </Menu.Item>
+    return (
+        <Menu vertical>
+            <Menu.Item
 
-                <Menu.Item
-                    name='popular'
-                    active={activeItem === 'popular'}
-                    onClick={this.handleItemClick}
-                >
-                    Популярные
-                </Menu.Item>
+                active={sortBy === 'all'}
+                onClick={setSort.bind(this, 'all')}
+            >
+                Все
+            </Menu.Item>
 
-                <Menu.Item
-                    name='price_high'
-                    active={activeItem === 'price_high'}
-                    onClick={this.handleItemClick}
-                >
-                    Цена (дорогие)
-                </Menu.Item>
+            <Menu.Item
 
-                <Menu.Item
-                    name='price_low'
-                    active={activeItem === 'price_low'}
-                    onClick={this.handleItemClick}
-                >
-                    Цена (дешёвые)
-                </Menu.Item>
+                active={sortBy === 'popular'}
+                onClick={setSort.bind(this, 'popular')}
+            >
+                Популярные
+            </Menu.Item>
 
-                <Menu.Item
-                    name='author'
-                    active={activeItem === 'author'}
-                    onClick={this.handleItemClick}
-                >
+            <Menu.Item
 
-                   По автору
-                </Menu.Item>
-            </Menu>
-        )
-    }
-}
+                active={sortBy === 'price_high'}
+                onClick={setSort.bind(this, 'price_high')}
+            >
+                Цена (дорогие)
+            </Menu.Item>
+
+            <Menu.Item
+
+                active={sortBy === 'price_low'}
+                onClick={setSort.bind(this, 'price_low')}
+            >
+                Цена (дешёвые)
+            </Menu.Item>
+
+            <Menu.Item
+                active={sortBy === 'author'}
+                onClick={setSort.bind(this, 'author')}
+            >
+
+                По автору
+            </Menu.Item>
+        </Menu>
+    )
+};
+
+export default Sort;

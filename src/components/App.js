@@ -4,7 +4,8 @@ import axios from 'axios'
 import BookCard from "./bookCard/BookCard";
 import NavMenu from "./Menu/Menu";
 import {Card} from "semantic-ui-react";
-import Sort from "./Sorting/Sort";
+import Sort from "../containers/Sort"
+
 
 
 class App extends Component {
@@ -18,11 +19,11 @@ class App extends Component {
     }
 
     render() {
-        const {books, isReady} = this.props;
+        const {books, isReady, setSort} = this.props;
         return (
             <Container>
                     <NavMenu/>
-                    <Sort/>
+                    <Sort setSort={setSort}/>
                     <Card.Group itemsPerRow={4}>
                     {! isReady ? 'Загрузка...' : books.map((book, index) => (
                       <BookCard key={index} {...book} />
