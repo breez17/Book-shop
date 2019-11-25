@@ -17,14 +17,6 @@ const Sort = props => {
 
             <Menu.Item
 
-                active={sortBy === 'popular'}
-                onClick={setSort.bind(this, 'popular')}
-            >
-                Популярные
-            </Menu.Item>
-
-            <Menu.Item
-
                 active={sortBy === 'price_high'}
                 onClick={setSort.bind(this, 'price_high')}
             >
