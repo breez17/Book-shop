@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import {Input, Label, Menu} from 'semantic-ui-react'
 
+
 const Sort = props => {
-    const {setSort, sortBy} = props;
+    const {setSort, sortBy, setSearchQuery, searchQuery} = props;
 
 
     return (
@@ -37,7 +38,12 @@ const Sort = props => {
             >
 
                 По автору
-            </Menu.Item>
+            </Menu.Item
+
+            ><Menu.Item>
+
+            <Input icon={"search"} value={searchQuery} onChange={e => setSearchQuery(e.target.value)} placeholder="Поиск..."/>
+        </Menu.Item>
         </Menu>
     )
 };

@@ -4,8 +4,8 @@ import * as sortActions from "../Actions/Sort";
 import Sort from "../components/Sorting/Sort";
 
 
-const mapStateToProps = ({books}) => ({
-    sortBy: books.sortBy,
+const mapStateToProps = ({books, sort}) => ({
+    sortBy: sort.sortBy,
 });
 
 

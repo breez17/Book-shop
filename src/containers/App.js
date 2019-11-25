@@ -3,11 +3,12 @@ import {bindActionCreators} from "redux";
 import * as booksActions from "../Actions/Books";
 import App from '../components/App'
 import orderBy from 'lodash/orderBy'
+import {setSearchQuery} from "../Actions/Sort";
 
-const filterBy = (books, sortBy) => {
-    switch (sortBy) {
-        case 'all':
-            return books;
+
+    const filterBy = (books, filterBy) => {
+
+    switch (filterBy) {
         case 'price_high':
             return orderBy(books, 'price', 'desc');
         case 'price_low':
@@ -19,9 +20,19 @@ const filterBy = (books, sortBy) => {
     }
 };
 
-const mapStateToProps = ({books}) => ({
+const filterBooks = (books, searchQuery) =>
+    books.filter(
+        o => o.title.toLowerCase().indexOf(searchQuery.toLowerCase()) >= 0 ||
+        o.author.toLowerCase().indexOf(searchQuery.toLowerCase()) >= 0,
+);
 
-    books: filterBy(books.items, books.sortBy),
+const searchBooks = (books, sortBy, searchQuery) => {
+    return filterBy(filterBooks(books, searchQuery), sortBy)
+};
+
+const mapStateToProps = ({books, sort}) => ({
+
+    books: books.items && searchBooks(books.items, sort.sortBy, sort.searchQuery),
     isReady: books.isReady,
 });
 
